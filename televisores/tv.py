@@ -9,13 +9,12 @@ class TV:
     def __init__(self,marca,estado):
         self._marca = marca
         self._estado = estado
-        self._numTV += 1
+        TV._numTV += 1
 
     #gets() y sets()
     @classmethod
     def getNumTV(cls):
         return cls._numTV
-
     @classmethod
     def setNumTV(cls,num):
         cls._numTV = num
