@@ -1,5 +1,3 @@
-#from televisores.control import Control
-
 class TV:
     _numTV = 0 # Atributo de clase
     #Inicializadores de atributos de instancia:
