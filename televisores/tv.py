@@ -12,8 +12,9 @@ class TV:
         self._numTV += 1
 
     #gets() y sets()
-    def getNumTV(self):
-        return self._numTV
+    @classmethod
+    def getNumTV(cls):
+        return cls._numTV
 
     @classmethod
     def setNumTV(cls,num):
