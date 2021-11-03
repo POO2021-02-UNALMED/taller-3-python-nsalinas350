@@ -1,4 +1,4 @@
-from televisores.control import Control
+#from televisores.control import Control
 
 class TV:
     _numTV = 0 # Atributo de clase
@@ -6,7 +6,7 @@ class TV:
     _canal = 1
     _precio = 500
     _volumen = 1
-    _control = Control
+    _control = None
 
     def __init__(self,marca,estado):
         self._marca = marca

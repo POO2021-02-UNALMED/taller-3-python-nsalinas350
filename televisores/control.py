@@ -1,10 +1,7 @@
-from televisores.tv import TV
-
-
-from televisores.tv import TV
+#from televisores.tv import TV
 
 class Control:
-    _tv = TV
+    _tv = None
 
     #get() y set():
     def getTv(self):
@@ -27,6 +24,9 @@ class Control:
         self._tv.canalUp()
     def canalDown(self):
         self._tv.canalDown()
+
+    def setCanal(self , canal):
+        self._tv.setCanal(canal)
 
     def volumenUp(self):
         self._tv.volumenUp()
