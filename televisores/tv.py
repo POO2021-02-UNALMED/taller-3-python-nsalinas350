@@ -14,8 +14,8 @@ class TV:
     #gets() y sets()
     def getNumTV(self):
         return self._numTV
-    def setNumTV(self,n):
-        self._numTV = n
+    def setNumTV(self,num):
+        self._numTV = num
 
     def getMarca(self):
 	    return self._marca
